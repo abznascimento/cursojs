@@ -6,7 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro passos com DOM</title>
 </head>
+
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: antiquewhite;
+            }
+
+
+        </style>
+    </head>
 <body>
     <h1>Estudando o DOM (Document Object Model)</h1>
+    <p>Aqui esta o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em javaScript</p>
+    <div>Clique aqui</div>
+    <script>
+
+        var p1 = window.document.getElementsByTagName(p)[0]
+       
+        p1.style.color = 'blue'
+
+    </script>
+    
 </body>
 </html>
+
+
+    
+    
